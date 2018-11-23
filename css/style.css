@@ -1,0 +1,251 @@
+*{}
+/* css header */
+.bg{
+	background-image: url("../image/header.png");
+	background-size: cover;
+	padding-top: 15%;
+	padding-bottom: 5%;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.content{
+	width: 70%;
+    margin: auto;
+    color: white;
+    padding-top: 0%;
+}
+.icon1{
+    padding-bottom: 9%;
+}
+.text h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 54px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.text p{
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 54px;
+	font-size: 15pt;
+	padding-bottom: 39px;
+}/*  end css header */
+
+/* css about_us */
+.about_us{
+	padding-top: 147px;
+    padding-bottom:147px;
+}
+.about_us-content{
+	width: 70%;
+    margin: auto;
+}
+.about_us-fieldset {
+    border: 2px solid #000000;
+}
+.about_us legend{
+	text-align: center;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    width: 50%
+}
+.about_us p{
+     font-family: 'Myriad Pro', sans-serif;
+    text-align: center;
+    color:#4a4747;
+    font-size: 16px;
+    padding: 50px 0 30px;
+    line-height: 28px;
+}/*  end css about_us */
+
+/* css services */
+.sevices {
+    background-image: url("../image/service.png");
+    background-size: cover;
+    padding-top: 128px;
+    padding-bottom: 109px;
+    background-repeat: no-repeat;
+}
+.sevices-content {
+    width: 70%;
+    margin: auto;
+}
+
+.sevices-fieldset{
+    border: 2px solid #EEEEEE;
+}
+.sevices-fieldset legend {
+    width: 50%;
+    letter-spacing: 6px;
+    font-size: 34px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.sevices-fieldset p {
+    font-family: 'Lato',Myriad Pro;
+    line-height: 28px;
+    color: white;
+    font-size: 16px;
+    padding: 50px 0 30px;
+}/*  end css services */
+
+/*  css what we do */
+.wwd {
+    padding-top: 147px;
+    padding-bottom: 147px;
+}
+.wwd-content {
+    width: 70%;
+    margin: auto;
+}
+.wwd-fieldset {
+    border: 2px solid #000000;
+
+}
+.wwd-fieldset legend {
+    font-size: 34px;
+    font-family: 'Lato',sans-serif;
+    font-weight: bold;
+    width: 50%;
+}
+.wwd-fieldset .icon {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.wwd-fieldset h3 {
+    font-family: 'lato',sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 3%;
+}
+.wwd-fieldset p {
+    font-family: 'Myriad Pro',sans-serif;
+    font-size: 15px;
+    color: #4a4747;
+    line-height: 28px;
+    padding-bottom: 6%;
+}
+/* end css whatwedo */
+
+/* css our_work */
+.our_work{
+    padding-bottom: 147px;
+
+}
+.out_work-content{
+    margin: auto;
+    width:100%;
+}
+
+.topworkz{
+    background-image: url("../image/our_work01.png");
+    margin-right: 0.5%!important;
+    margin:auto;
+  
+}
+.joint{
+    background-image: url("../image/our_work02.png");
+    margin:auto;
+    margin-left:0;
+    margin-right:0;
+    
+}
+.market{
+    background-image: url("../image/our_work03.png");
+    margin-left:0.5%!important;
+    margin:auto;
+   
+}
+.worktop{
+    background-image: url("../image/our_work04.png");
+    margin-right: 0.5%!important;
+    margin:auto;
+}
+.lable{
+    background-image: url("../image/our_work05.png");
+    margin:auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+.kyiv{
+    background-image: url("../image/our_work06.png");
+    margin-left:0.5%!important;
+    margin:auto;
+}
+.topworkz,.joint,.market,.worktop,.lable,.kyiv{
+    background-size: cover;
+    padding-top:12%;
+    margin-bottom: 0.5%;
+}
+.topworkz,.joint,.market,.worktop,.lable,.kyiv p{
+    font-family: 'Lato',sans-serif;
+    font-weight: bold;
+    color: white;
+   font-size: 34px;
+
+}
+
+
+/* css contactus */
+/* .contactus{
+    padding-top: 147px;
+} */
+.contactus-content {
+    width: 70%;
+    margin: auto;
+}
+.contactus-fieldset {
+    border: 2px solid #000000;
+}
+.contactus-fieldset legend {
+    width: 50%;
+    font-size: 34px;
+    letter-spacing: 6px;
+    font-weight: bold;
+}
+.contactus-fieldset p {
+    padding: 50px 0 30px;
+    line-height: 28px;
+}
+.bt {
+    width: 40%;
+    margin: auto;
+    padding: 3% 0;
+    line-height: 5px;
+}
+.contactus-bt{
+    padding-bottom: 6%;
+}/* end css contactus */
+
+/* css footer */
+.footer_content{
+    padding-top: 54px;
+}
+.footer_content img {
+    float: left;
+    padding-left: 36%;
+}
+.footer_content p {
+    float: left;
+    padding: 1.3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
