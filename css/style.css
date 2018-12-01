@@ -7,6 +7,14 @@
 	padding-bottom: 5%;
     background-repeat: no-repeat;
     background-position:center;
+    animation-name: header 5s;
+    position: relative;
+}
+@keyframes header{
+    0%{top:400px;}
+    100%{top: 0px;}
+
+
 }
 .content{
 	width: 70%;
@@ -36,10 +44,19 @@
 .about_us{
 	padding-top: 147px;
     padding-bottom:147px;
+    animation-name: about ;
+    animation-duration: 3s;
+    position:relative;
+
 }
 .about_us-content{
-	width: 70%;
+	width: 80%;
     margin: auto;
+    
+}
+@keyframes about {
+    from {top: 300px;}
+    to {top:0px;}
 }
 .about_us-fieldset {
     border: 2px solid #000000;
@@ -69,7 +86,11 @@
     padding-top: 128px;
     padding-bottom: 109px;
     background-repeat: no-repeat;
+    animation-name: services ;
+    animation-duration: 3s;
+    position:relative;
 }
+@keyframes services{from {top:300px;} to{top:0px;}}
 .sevices-content {
     width: 70%;
     margin: auto;
@@ -98,9 +119,13 @@
 .wwd {
     padding-top: 147px;
     padding-bottom: 147px;
+    animation-name: wwd ;
+    animation-duration: 3s;
+    position:relative;
 }
+@keyframes wwd{from{top:300px;} to{top:0px;}}
 .wwd-content {
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 .wwd-fieldset {
@@ -136,13 +161,19 @@
 /* css our_work */
 .our_work{
     padding-bottom: 147px;
+    animation-name: ourwork ;
+    animation-duration: 3s;
+    position:relative;
 
 }
-.out_work-content{
+/* .out_work-content{
     margin: auto;
     width:100%;
+} */
+@keyframes ourwork{
+    from{top:300px;}
+    to{top:0px;}
 }
-
 .topworkz{
     background-image: url("../image/our_work01.png");
     margin-right: 0.5%!important;
@@ -197,8 +228,15 @@
     padding-top: 147px;
 } */
 .contactus-content {
-    width: 70%;
+    width: 80%;
     margin: auto;
+    animation-name: contact ;
+    animation-duration: 3s;
+    position:relative;
+}
+@keyframes contact{
+    from{top:300px;}
+    to{top:0px;}
 }
 .contactus-fieldset {
     border: 2px solid #000000;
